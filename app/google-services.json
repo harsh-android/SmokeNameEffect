@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "348232783972",
+    "firebase_url": "https://smoke-effect-ee10a.firebaseio.com",
+    "project_id": "smoke-effect-ee10a",
+    "storage_bucket": "smoke-effect-ee10a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348232783972:android:0ad487655a8cca68daa771",
+        "android_client_info": {
+          "package_name": "com.avinfo.smokename"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348232783972-igq28tb3b4o09r3ban6ec88qp7qjtps2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avinfo.smokename",
+            "certificate_hash": "8432ba0f5db820a92d0446b5c344bc9d2be6f6ad"
+          }
+        },
+        {
+          "client_id": "348232783972-1je4037gqatpa0odpmfj4u30q0srhon2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB4YBMoOvtmtlrSBYpEp0IjIIAqrWnC7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348232783972-1je4037gqatpa0odpmfj4u30q0srhon2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

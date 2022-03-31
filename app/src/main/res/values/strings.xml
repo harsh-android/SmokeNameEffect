@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smoke Effect</string>
+
+    <string name="icon_desc">Ad icon</string>
+    <string name="image_desc">Ad image</string>
+    <string name="sponsored">Sponsored</string>
+
+</resources>

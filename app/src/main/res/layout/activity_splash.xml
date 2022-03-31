@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/smoke2"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/smoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/smoke"
+        android:text="SMOKE"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/smoke"
+        android:gravity="end"
+        android:layout_marginLeft="50dp"
+        android:text="EFFECT"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/smoke1" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/smoke"
+        android:src="@drawable/smoke1"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>
